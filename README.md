@@ -6,7 +6,7 @@ See [`src/passwdme.coffee`](src/passwdme.coffee) for full documentation.
 
 ## Installation
 
-In hubot project repo, run:
+In your hubot directory, run:
 
 `npm install hubot-passwdme --save`
 
@@ -18,9 +18,10 @@ Then add **hubot-passwdme** to your `external-scripts.json`:
 ]
 ```
 
-## Sample Interaction
+## Usage
+
+Assuming your hubot instance is called hubot, you can instruct it to generate passwords as follows:
 
 ```
-user1>> hubot hello
-hubot>> hello!
+hubot pw <lenght> <type> <charset> <seperator>
 ```
