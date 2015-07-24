@@ -1,27 +1,27 @@
 {
   "name": "hubot-passwdme",
   "description": "A hubot script to generates a unique, secure password using the passwd.me API",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Billy Gunn <billy@arckinteractive.com>",
   "license": "MIT",
 
-  "keywords": "hubot, hubot-scripts, password",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-passwdme.git"
+    "url": "git://github.com/bgunn/hubot-passwdme.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-passwdme/issues"
+    "url": "https://github.com/bgunn/hubot-passwdme/issues"
   },
 
   "dependencies": {
-    "querystring": ""
-  },
-
-  "peerDependencies": {
-    "hubot": "2.x"
+    "querystring": "",
+    "coffee-script": "~1.9"
   },
 
   "devDependencies": {
