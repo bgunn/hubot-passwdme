@@ -1,6 +1,6 @@
 {
   "name": "hubot-passwdme",
-  "description": "A hubot script to generates a unique, secure password using the passwd.me API",
+  "description": "A hubot script to generate a unique, secure password using the passwd.me API",
   "version": "1.0.0",
   "author": "Billy Gunn <billy@arckinteractive.com>",
   "license": "MIT",
