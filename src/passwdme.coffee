@@ -1,5 +1,5 @@
 # Description:
-#   A hubot script to generates a unique, secure password using the passwd.me API
+#   A hubot script to generate a unique, secure password using the passwd.me API
 #
 # Dependencies:
 #   "querystring": ""
