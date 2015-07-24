@@ -24,4 +24,10 @@ Assuming your hubot instance is called hubot, you can instruct it to generate pa
 
 ```
 hubot pw <lenght> <type> <charset> <seperator>
+hubot pw
+hubot pwd 24 pronounceable
 ```
+
+## Options 
+
+**lenght** The length of the password between 8 and 64 characters
