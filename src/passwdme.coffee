@@ -66,7 +66,7 @@ module.exports = (robot) ->
 
         # Check to see if we received an alternate charset
         if v in charsets
-          params.charset = v
+          params.charset = v.toUpperCase()
 
         # Check to see if we received an alternate type
         if v in types

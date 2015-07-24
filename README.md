@@ -4,10 +4,6 @@ A hubot script to generate passwords using the passwd.me API
 
 See [`src/passwdme.coffee`](src/passwdme.coffee) for full documentation.
 
-## Motivation
-
-As an IT guy I am constantly visiting 3rd party sites to generate passwords for a wide variety of reasons. Having recently switched to Slack for our team collaboration I thought a Hubot script to generate passwords would be a nice addition.
-
 ## Installation
 
 In your hubot directory, run:
